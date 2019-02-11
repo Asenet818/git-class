@@ -1,0 +1,17 @@
+.contenedor {
+	display: inline-grid;
+	grid-template-columns: repeat(3,1fr);
+ 	grid-column-gap: 50%;
+ 	grid-row-gap: 50px;
+  	justify-content: center;
+}
+body{
+	justify-content: center;
+	display: flex;
+}
+div{
+	display: flex;
+	height: auto;
+	width: auto;
+}
+
