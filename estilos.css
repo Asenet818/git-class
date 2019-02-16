@@ -15,3 +15,17 @@ div{
 	width: auto;
 }
 
+.container > div {
+	background-color: blue;
+	text-align: center;
+	padding: 20px 1;
+	font-size: 38px;
+  }
+
+  .container {
+	display: grid;
+	grid-template-columns: 5fr  auto 2fr;
+	grid-template-rows: 40px auto;
+	grid-gap: 10px;
+	padding: 5x;
+}
