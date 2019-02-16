@@ -1,17 +1,22 @@
-.contenedor {
-	display: inline-grid;
-	grid-template-columns: repeat(3,1fr);
- 	grid-column-gap: 50%;
- 	grid-row-gap: 50px;
-  	justify-content: center;
-}
-body{
-	justify-content: center;
-	display: flex;
-}
-div{
-	display: flex;
-	height: auto;
-	width: auto;
+
+@media screen and (max-width: 39.9999em) {
+	.container{
+		background-color: red;
+	}
 }
 
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.container{
+		background-color: blue;
+	}
+}
+.image-responsive{
+	width: 125px;
+	height: 150px;
+}
+.padding-xs { padding: .25em; }
+.padding-sm { padding: .5em; }
+.padding-md { padding: 1em; }
+.padding-lg { padding: 1.5em; }
+.padding-xl { padding: 3em; }
