@@ -1,19 +1,21 @@
-.contenedor {
-	display: inline-grid;
-	grid-template-columns: repeat(3,1fr);
- 	grid-column-gap: 50%;
- 	grid-row-gap: 50px;
-  	justify-content: center;
+
+@media screen and (max-width: 39.9999em) {
+	.container{
+		background-color: red;
+	}
 }
-body{
-	justify-content: center;
-	display: flex;
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.container{
+		background-color: blue;
+	}
 }
-div{
-	display: flex;
-	height: auto;
-	width: auto;
+.image-responsive{
+	width: 125px;
+	height: 150px;
 }
+<<<<<<< HEAD
 
 .container > div {
 	background-color: blue;
@@ -29,3 +31,10 @@ div{
 	grid-gap: 10px;
 	padding: 5x;
 }
+=======
+.padding-xs { padding: .25em; }
+.padding-sm { padding: .5em; }
+.padding-md { padding: 1em; }
+.padding-lg { padding: 1.5em; }
+.padding-xl { padding: 3em; }
+>>>>>>> eae6007ff3411b21f75c9f3f727e4115f2899d04
